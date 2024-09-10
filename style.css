@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.main-container {
+    height: 840px;
+    display: flex;
+}
+.img{
+    display: flex;
+    margin: 15px 15px 70px;
+}
+.img img{
+    margin: 5px;
+    height: 45px;
+    width: 40px;
+}
+.left-side {
+    margin: 10px;
+}
+.row-1{
+    display: flex;
+}
+.box-0{
+    margin: 8px;
+    height: 295px;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgba(78, 82, 88, 0.797);
+    border: 5px solid rgb(66, 124, 190);
+}
+.box-0 i{
+    font-size: 20px;
+    color: rgb(186, 189, 192);
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+.small{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 280px;
+    background-color: rgb(74, 74, 227);
+}
+.small i{
+    font-size: 25px;
+    padding: 10px;
+}
+.box{
+    margin: 8px;
+    height: 295px;
+    width: 340px;
+    border-radius: 10px;
+    background-color: rgba(78, 82, 88, 0.797);
+}
+.circle-1{
+    height: 110px;
+    width: 110px;
+    margin: 45px auto;
+    border-radius: 50%;
+}
+.circle-2, .circle-3, .circle-4{
+    height: 110px;
+    width: 110px;
+    margin: 57px auto;
+    border-radius: 50%;
+}
+.circle-5, .circle-6, .circle-7{
+    height: 130px;
+    width: 130px;
+    margin: 55px auto;
+    border-radius: 50%;
+}
+.circle-1{
+    background-image: url(anwesha.png);
+    background-size: cover;
+}
+.circle-2{
+    background-image: url(radha.png);
+    background-size: cover;
+}
+.circle-3{
+    background-image: url(sukruti.png);
+    background-size: cover;
+}
+.circle-4{
+    background-image: url(vikash.png);
+    background-size: cover;
+}
+.circle-5{
+    background-image: url(nikhil.png);
+    background-size: cover;
+}
+.circle-6{
+    background-image: url(neelam.png);
+    background-size: cover;
+}
+.circle-7{
+    background-image: url(ravi.png);
+    background-size: cover;
+}
+.name, .name-1{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(207, 201, 201);
+    font-weight: bolder;
+}
+.box i{
+    font-size: 20px;
+    color: rgb(186, 189, 192);
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+.row-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1, .box-2, .box-3{
+    margin: 8px;
+    height: 310px;
+    width: 457px;
+    border-radius: 10px;
+    background-color: rgba(78, 82, 88, 0.797);
+}
+.box-3 i{
+    font-size: 20px;
+    color: rgb(186, 189, 192);
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+.box-2 i{
+    font-size: 20px;
+    color: rgb(186, 189, 192);
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+.box-1 i{
+    font-size: 20px;
+    color: rgb(186, 189, 192);
+    margin: 20px;
+    display: flex;
+    justify-content: end;
+}
+.right-side {
+    margin: 15px 10px 0px 0px;
+    height: 830px;
+    width: 420px;
+    border-radius: 10px;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right-side-top{
+    height: 100px;
+    width: 370px;
+    background-color: rgb(232, 244, 248);
+    margin: 70px 15px 0px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.row{
+    display: flex;
+    margin: 30px 30px 0px;
+
+}
+.chat-box{
+    margin-right: 150px;
+    font-size: 22px;
+}
+.right-side i{
+    font-size: 25px;
+}
+.right-side-top .instruction{
+    font-size: 16px;
+    text-align: center;
+}
+img{
+    height: 25px;
+    width: 23px;
+}
+.right-side-bottom{
+    height: 60px;
+    width: 370px;
+    background-color: rgb(232, 244, 248);
+    margin: 525px 15px 0px;
+    border-radius: 30px;
+}
+.instruction-2{
+    margin-right: 180px;
+    color: rgb(127, 131, 132);
+    font-weight: bold;
+}
+.right-side-bottom .column{
+    display: flex;
+    padding: 20px;
+}
+.bottom-container{
+    height:120px;
+}
+.bottom-container-1{
+    height: 40px;
+    width: 410px;
+    border-radius: 30px;
+    background-color: rgba(27, 28, 29, 0.797);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heart{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(243, 8, 188);
+}
+.thumbs-up{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.clapping{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.face-tears{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.face-surprise{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.face-sad{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.rolling-eyes{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.thumbs-down{
+    margin: auto;
+    font-size: 25px;
+    color: rgb(238, 163, 13);
+}
+.bottom-1{
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+}
+.bottom-container-circle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: rgb(238, 163, 13);
+    
+}
+
+.bottom-2{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-container-2{
+    display: flex;
+}
+.bottom-container-2 .icon-1{
+    height: 45px;
+    width: 82px;
+    border-radius: 30px;
+    background-color: rgb(32, 31, 31);
+    margin-left: 10px;
+    display: flex;
+}
+.bottom-container-2 .icon-1 .inner{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(42, 43, 45, 0.797);
+}
+.inner-1{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(226, 30, 30);
+}
+.icon{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(42, 43, 45, 0.797);
+    margin-left: 10px;
+}
+.icn{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(123, 197, 244, 0.797);
+    margin-left: 10px;
+}
+.icon-2{
+    height: 45px;
+    width: 75px;
+    border-radius: 30px;
+    background-color: rgb(226, 30, 30);
+    margin-left: 10px;
+}
+.inner i{
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(196, 192, 192);
+}
+.inner-1 i{
+    padding: 12px;
+    font-size: 20px;
+    color: rgb(196, 192, 192);
+}
+
+.icon-1 .inner i{
+    padding: 15px;
+    font-size: 18px;
+    color: rgb(196, 192, 192);
+}
+.inner-0{
+    padding: 15px;
+    font-size: 13px;
+    color: rgb(196, 192, 192);
+}
+.cc-icon{
+    padding: 13px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(196, 192, 192);
+}
+.emoji-icon{
+    padding: 13px;
+    font-size: 20px;
+    color: rgb(28, 26, 26);
+}
+.arrow{
+    padding: 15px;
+    font-size: 15px;
+    color: rgb(196, 192, 192);
+}
+.hand{
+    padding: 14px;
+    font-size: 20px;
+    color: rgb(196, 192, 192);
+}
+.ellips{
+    padding: 14px;
+    font-size: 18px;
+    color: rgb(196, 192, 192);
+}
+.phone{
+    margin-top: 7px;
+    height: 30px;
+    width: 75px;
+}
+.site-1{
+    margin-left: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.site-2{
+    margin-right: 20px;
+}
+.site-2 .info{
+    color: white;
+    font-size: 23px;
+}
+.user{
+    margin-left: 5px;
+    color: white;
+    font-size: 21px;
+}
+.message{
+    margin-left: 5px;
+    color: rgb(82, 164, 219);
+    font-size: 23px;
+}
+.shapes{
+    margin-left: 5px;
+    color: white;
+    font-size: 23px;
+}
+@media screen and (max-width: 640px){
+    .left-side{
+        margin: 0px 20px;
+    }
+    .row-1, .row-2{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .box-0{
+        height: 250px;
+        width: 280px;
+        border-radius: 10px;
+        background-color: rgba(78, 82, 88, 0.797);
+        border: 5px solid rgb(66, 124, 190);
+    }
+    .box-0 i{
+        font-size: 15px;
+        color: rgb(186, 189, 192);
+        margin: 12px;
+        display: flex;
+        justify-content: end;
+    }
+    .small{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin: 5px 230px;
+        background-color: rgb(74, 74, 227);
+    }
+    .box, .box-1, .box-2, .box-3{
+        height: 250px;
+        width: 280px;
+    }
+    .circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7{
+        height: 80px;
+        width: 80px;
+        margin-top: 38px;
+    }
+    .name-1{
+        margin: 60px 5px;
+        font-size: 12px;
+    }
+    .name{
+        margin: 70px 8px;
+        font-size: 12px;
+    }
+    .box, .box-1, .box-2, .box-3 .name{
+        font-size: 12px;
+    }
+    
+    .right-side{
+        overflow: hidden;
+    }
+    .bottom-container{
+        margin-top: 400px;
+    }
+    .bottom-container-1{
+        margin-left: 30px;
+    }
+    .bottom-container-2{
+        margin-top: -40px;
+    }
+    .site-1{
+        
+    }
+}
