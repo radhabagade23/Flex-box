@@ -400,7 +400,7 @@ img{
     color: white;
     font-size: 23px;
 }
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 480px){
     .left-side{
         margin: 0px 20px;
     }
@@ -409,8 +409,8 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
     .box-0{
-        height: 250px;
-        width: 280px;
+        height: 200px;
+        width: 230px;
         border-radius: 10px;
         background-color: rgba(78, 82, 88, 0.797);
         border: 5px solid rgb(66, 124, 190);
@@ -426,12 +426,12 @@ img{
         height: 30px;
         width: 30px;
         border-radius: 50%;
-        margin: 5px 230px;
+        margin: 5px 180px;
         background-color: rgb(74, 74, 227);
     }
     .box, .box-1, .box-2, .box-3{
-        height: 250px;
-        width: 280px;
+        height: 200px;
+        width: 230px;
     }
     .circle-1, .circle-2, .circle-3, .circle-4, .circle-5, .circle-6, .circle-7{
         height: 80px;
@@ -462,7 +462,10 @@ img{
     .bottom-container-2{
         margin-top: -40px;
     }
-    .site-1{
+    .bottom-container-2{
         
     }
-}
+    .site-1, .site-2{
+        overflow: hidden;
+    }
+} */
